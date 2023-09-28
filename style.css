@@ -1,0 +1,134 @@
+html,body{
+    font-size: 80%;
+    font-family: "courier New", Courier,monospace;
+    letter-spacing: 0.15em;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#page {
+    
+
+ max-width: 1200px;
+min-width: 720px;
+margin: 10px auto 10px auto;
+padding: 20px;
+border: 4px double #4D724D;
+border-radius: 7px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #faf4f0;;
+
+    
+}
+
+#logo{
+    width: 50%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.title{
+    color: transparent;
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: block;
+    margin-bottom: 6px;
+    background: linear-gradient(
+      120deg,
+      #184e68 35.69%,
+      #57ca85 50.69%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#contain {
+    align-content: center;
+    padding-left: auto;
+}
+#contain img{
+    transition: transform 1s;
+    width: 180px;
+    height: auto;
+    margin: 10px 15px;
+    display: inline-block;
+    text-align: center ;
+    align-items: center;
+    border-radius: 10px;
+    }
+    
+    img:hover {
+    transform:scale(1.2);
+    }
+
+    a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 10px;
+    }
+    
+    a:hover, a.off {
+    color: #212020;
+    background-color: #3f3f3f1d;
+    }
+
+ul{
+    width: 600px;
+    padding: 15px;
+    margin: 4px auto 4px auto;
+    border-top: 2px solid #4D724D;
+    border-bottom: 2px solid #4D724D;
+    text-align: center;
+    font-size: 10px;
+}
+
+li{
+    display: inline;
+    margin: 0px 2px;
+}
+
+p{
+    text-align: center;
+    width: 600px;
+    margin: 25px auto 25px auto;
+    font-weight: normal;
+    font-size: 20px;
+    color:#184e68;
+    
+    
+}   
+
+a{
+    color:#184e68;  
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 18px 5px 18px;
+}
+
+a:hover,a.on{
+    color: transparent;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-bottom: 5px;
+    background: linear-gradient(
+      120deg,
+      #184e68 50.69%,
+      #57ca85 79.69%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
